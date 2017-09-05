@@ -1,4 +1,6 @@
 import { combineReducers } from 'redux';
-import user from './user';
+import userReducer from './user';
+import profileReducer from './profile';
+import organizationReducer from './organization'
 
-export default combineReducers({ user });
+export default combineReducers({ userReducer, profileReducer, organizationReducer });

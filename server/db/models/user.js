@@ -10,10 +10,16 @@ const setSaltAndPassword = user => {
 };
 
 module.exports = db.define('user', {
+  name: {
+    type: Sequelize.STRING
+  },
+  gender: {
+    type: Sequelize.ENUM('male', 'female')
+  },
   email: {
     type: Sequelize.STRING,
     unique: true,
-    allowNull: false
+    allowNull: true
   },
   password: {
     type: Sequelize.STRING
@@ -23,8 +29,15 @@ module.exports = db.define('user', {
   },
   googleId: {
     type: Sequelize.STRING
+  },
+  isAdmin: {
+    type: Sequelize.BOOLEAN,
+  },
+  searchable: {
+    type: Sequelize.BOOLEAN
   }
-}, {
+},
+  {
   instanceMethods: {
     correctPassword (candidatePwd) {
       return this.Model.encryptPassword(candidatePwd, this.salt) === this.password;
@@ -43,3 +56,19 @@ module.exports = db.define('user', {
     beforeUpdate: setSaltAndPassword
   }
 });
+
+
+
+
+/* Notes...
+
+// A first-name, last-name feature may be ideal...
+//
+
+Questions ***
+
+
+How does the get method work (yes, it's similar functionaly same as an options-based getter-method) in the schema definition?
+
+
+*/

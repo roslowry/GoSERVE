@@ -1,5 +1,14 @@
 body {
-  font-family: sans-serif;
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    line-height: 1.2em;
+    font-family: 'Open Sans', sans-serif;
+  }
 
   a {
     text-decoration: none;
@@ -18,4 +27,243 @@ body {
     margin: 1em;
     display: inline-block;
   }
+
+  .above {
+    display: flex;
+    height: 50px;
+    font-size: 17px;
+    justify-content: space-around;
+    align-items: center
+  }
+
+  .above-general {
+    display: flex;
+    height: 80px;
+    margin-bottom: 40px;
+    font-size: 17px;
+    justify-content: space-around;
+    align-items: center
+  }
+  .volunteer-cover {
+    height: 500px;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    justify-text: center;
+  }
+
+  .wide-image {
+    width: 100%;
+    opacity: 0.45
+  }
+
+  .cover-text {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 400px;
+    color: black;
+    font-size: 30px;
+    font-weight: 1000;
+    font-size: 30px;
+    font-style: italic;
+    letter-spacing: 4px;
+  }
+
+  .volunteer-btn {
+    position: absolute;
+    top: 450px;
+    left: 43%;
+    font-size: 18px;
+    background-color: #0c8ef2;
+    color: #fff;
+    padding: 10px 20px 10px 20px
+  }
+
+  .general-btn {
+    font-size: 18px;
+    background-color: #0c8ef2;
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+    justify-content: center;
+  }
+
+  .contact-btn {
+    font-size: 18px;
+    background-color: #0c8ef2;
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+    justify-content: center;
+    margin-left: 20px;
+  }
+
+
+  .signup-register {
+    margin: auto;
+    display: flex;
+  }
+
+  .signup-form {
+    background-color: #F6F7F8;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    width: 80%;
+    padding: 30px;
+    margin: auto;
+    color: #5D6063;
+    background-color: #EAEDF0;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 1.3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-form {
+    background-color: #F6F7F8;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    width: 80%;
+    padding: 15px;
+    margin: auto;
+    color: #5D6063;
+    background-color: #EAEDF0;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+    .form-row button {
+    font-size: 16px;
+    font-weight: bold;
+
+    color: #FFFFFF;
+    background-color: #5995DA;
+
+    border: none;
+    border-radius: 3px;
+
+    padding: 10px 40px;
+    cursor: pointer;
+  }
+
+
+  .form-row input {
+    background-color: #FFFFFF;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+  }
+
+  .form-row label {
+    margin-bottom: 10px;
+  }
+
+
+  .form-row select {
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;            /* This won't work in Chrome or Safari */
+    -webkit-appearance: none;   /* This will make it work */
+  }
+
+  .profileItem {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 120px;
+    margin: auto;
+    margin-bottom: 30px;
+
+  }
+
+
+
+  .profileImg {
+    border-radius: 100px;
+    margin-right: 20px;
+    width: 120px;
+  }
+
+  // .orgImg {
+  //   border-radius: 100px;
+  //   margin-right: 20px;
+  //   width: 120px;
+  // }
+
+  .imageCircle {
+    margin-left: 30px;
+    margin-right:28px;
+  }
+
+  .orgImg {
+      width: 140px;
+      height: 120px;
+  }
+
+  .profilePortrait {
+    border-radius: 14px;;
+    margin-right: 20px;
+    width: 120px;
+  }
+  .profileTop {
+    width: 90%;
+    margin: auto;
+  }
+
+  .profile-items {
+    width: 750px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .profilePage {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+  }
+
+  .profileList {
+    width: 80%;
+
+    margin: auto;
+  }
+
+
+  .profile {
+    display: flex;
+  }
+
+  .name {
+    margin-bottom: 10px
+  }
+
+  .location {
+    margin-bottom: 5px
+  }
+
+  .cooperate {
+    margin-bottom: 20px;
+  }
+  .profileContents {
+    // margin: 10px;
+    // // width: 800px;
+    // width: 90%;
+    padding-left: 85px;
+    // margin: auto;
+    // justify-content: space-between;
+    height: 1000px;
+  }
+
+
+
 }
