@@ -12,7 +12,7 @@ name: "Citizens for the Arts", photoUrl: "http://www.trbimg.com/img-56390bf7/tur
 name: "Classical Arts Foundation", photoUrl: "https://pbs.twimg.com/profile_images/691591784040763392/_V7_u7GL_400x400.png", sector: "Arts_and_Culture", description: faker.lorem.paragraph(), website: "http://www.placeholder.com"
 },
 {
-name: "Culture and Creativity Insitute", photoUrl: "http://flagartfoundation.org/wp-faf/wp-content/uploads/2011/09/ArtSq_01.jpg", sector: "Arts_and_Culture", description: faker.lorem.paragraph(), website: "http://placehold.it/400x200"
+name: "Culture and Creativity Institute", photoUrl: "http://flagartfoundation.org/wp-faf/wp-content/uploads/2011/09/ArtSq_01.jpg", sector: "Arts_and_Culture", description: faker.lorem.paragraph(), website: "http://placehold.it/400x200"
 },
 {
 name: "Global Arts Society", photoUrl: "https://www.nac.gov.sg/naccorp/dam/jcr:f650deb4-c819-4acd-9436-a343bb1e37a5/Arts_Philanthropy_overview.jpg", sector: "Arts_and_Culture", description: faker.lorem.paragraph(), website: "http://placehold.it/400x200"
